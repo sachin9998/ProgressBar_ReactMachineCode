@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-family: sans-serif;
+  gap: 10px;
+}
+
+.progress {
+  width: 100%;
+  background: rgb(233, 236, 239);
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
